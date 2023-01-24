@@ -18,10 +18,10 @@ int _rot13(va_list rot)
 		return (-1);
 	while (s[a] != '\0')
 	{
-		if ((s[a] >= 'a' && s[a] <= 'z') || 
+		if ((s[a] >= 'a' && s[a] <= 'z') ||
 			(s[a] >= 'A' && s[a] <= 'Z'))
 		{
-			if ((s[a] >= 'n' && s[a] <= 'z') || 
+			if ((s[a] >= 'n' && s[a] <= 'z') ||
 				(s[a] >= 'N' && s[a] <= 'Z'))
 				count = count + _putchar(s[a] - 13);
 			else
