@@ -22,7 +22,7 @@ int print_op(const char *format, fmt_t *print_arr, va_list list)
 			c = 0;
 			b++;
 			a = format[b];
-			while (print_arr[c].type != NULL && 
+			while (print_arr[c].type != NULL &&
 				a != *(print_arr[c].type))
 				c++;
 			if (print_arr[c].type != NULL)
