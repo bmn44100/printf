@@ -31,7 +31,6 @@ int _hex_u(va_list hexa);
 int _strlen(char *s);
 int _bin(va_list bin);
 int _putchar(char c);
-int (*get_specifier(char *s))(va_list ap, params_t *params);
 int print_str_rev(char *str);
 
 #endif
